@@ -1,0 +1,81 @@
+.carouselContainer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  .leftImages {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .leftImages div:nth-child(2) {
+    margin-top: 30px;
+  }
+  .carouselContainerRow {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.thirdContainer {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: rgb(243, 243, 243);
+  margin-bottom: 100px;
+
+  .thirdContainerHeading {
+    border-bottom: 1px solid rgb(154, 154, 154);
+    h2 {
+      font-family: "Poppin-Medium";
+    }
+  }
+  .cardCol {
+    margin: 40px 0px;
+  }
+}
+
+.fourthContainer {
+  padding-top: 20px;
+  background-color: rgb(243, 243, 243);
+  .fourthContainerHeading {
+    border-bottom: 1px solid rgb(154, 154, 154);
+    h2 {
+      font-family: "Poppin-Medium";
+    }
+  }
+  .categoriesCardContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.fifthContainer {
+  margin-top: 50px !important;
+  h3 {
+    font-family: "Poppin-Medium";
+  }
+  p {
+    font-family: "Poppin-Regular";
+    text-align: justify;
+  }
+}
+
+.footerDiv {
+  margin-top: 30px !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .carouselContainer {
+    .leftImages {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      overflow: auto;
+    }
+    .leftImages div {
+      padding: 0px 30px 30px 30px;
+    }
+    .leftImages div:nth-child(2) {
+      margin-top: 0px;
+    }
+  }
+}

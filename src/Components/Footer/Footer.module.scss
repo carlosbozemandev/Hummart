@@ -1,0 +1,46 @@
+$main_green: #56a514;
+
+.mainContainer {
+  width: 100%;
+  background-color: $main_green;
+  color: white;
+  font-family: "Poppin-Regular";
+
+  h2 {
+    color: white;
+    font-family: "Poppin-Bold";
+  }
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  ul > li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    padding: 10px 0px;
+  }
+  ul > li > a {
+    color: white;
+    margin-left: 8px;
+    &:hover {
+      color: black;
+    }
+  }
+
+  .firstContainer,
+  .secondContainer,
+  .thirdContainer,
+  .fourthContainer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .fourthContainer {
+    img {
+      cursor: pointer;
+      width: 90%;
+      height: 85px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.priceAndButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  p {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  button {
+    padding: 8px 25px;
+    outline: none;
+    background-color: #e96026;
+    border: none;
+    color: white;
+    font-family: "Poppin-Medium";
+    border-radius: 50px;
+    cursor: pointer;
+  }
+}
